@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 
 /* !!! insert your API key here !!! */
-const apiKey = '3bed74812efc1800c5eed9a7cd9ffc95';
+const apiKey = '';
 
 /* coordinates */
 const locations = [
@@ -123,25 +123,25 @@ function App() {
   useEffect(() => {
     const fetchEspoo = async () => {
       setEspooWeather("Loading...");
-      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=60.25&lon=24.6667&appid=3bed74812efc1800c5eed9a7cd9ffc95');
+      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=60.25&lon=24.6667&appid='); /* !!! apiKeys removed for github !!! */
       setEspooWeather(res.data);
     }
 
     const fetchJKL = async () => {
       setJKLWeather("Loading...");
-      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=62.2415&lon=25.7209&appid=3bed74812efc1800c5eed9a7cd9ffc95');
+      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=62.2415&lon=25.7209&appid=');
       setJKLWeather(res.data);
     }
 
     const fetchKuopio = async () => {
       setKuopioWeather("Loading...");
-      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=62.8924&lon=27.677&appid=3bed74812efc1800c5eed9a7cd9ffc95');
+      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=62.8924&lon=27.677&appid=');
       setKuopioWeather(res.data);
     }
 
     const fetchTampere = async () => {
       setTampereWeather("Loading...");
-      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=61.4991&lon=23.7871&appid=3bed74812efc1800c5eed9a7cd9ffc95');
+      let res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=61.4991&lon=23.7871&appid=');
       setTampereWeather(res.data);
     }
 
