@@ -58,12 +58,17 @@ body {
   z-index: 1;
 }
 
-.dropdownContent a {
+.dropdownContent button {
   color: black;
   padding: 13pt 13pt;
   text-decoration: none;
   text-align: center;
   display: block;
+  border: none;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 13pt;
 }
 
 .cityMenu:hover .dropdownContent {
