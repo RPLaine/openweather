@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 
 /* APIKEY */
 
-const apiKey = "3bed74812efc1800c5eed9a7cd9ffc95";
+const apiKey = ""; /* INSERT APIKEY HERE! */
 
 /* coordinates */
 const locations = [
