@@ -12,9 +12,9 @@
 
   <p align="center">
     An application that shows weather of four Finnish cities: Espoo, Jyväskylä, Kuopio and Tampere.
+    <br>
+    <br>
   </p>
-  <p></p>
-  <p></p>
 </div>
 
 
