@@ -112,6 +112,10 @@ Note: There might be vulnerabilities present after installation. I've had no pro
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+[main-img](https://github.com/RPLaine/openweather/blob/main/img/main.png)
+
+[menu-img](https://github.com/RPLaine/openweather/blob/main/img/main.png)
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -172,3 +176,5 @@ Project Link: [https://github.com/RPLaine/openweather](https://github.com/RPLain
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[main-img]: https://github.com/RPLaine/openweather/blob/main/img/main.png
+[menu-img]: https://github.com/RPLaine/openweather/blob/main/img/citymenu.png
