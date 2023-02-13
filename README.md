@@ -116,6 +116,8 @@ The application loads showings all the cities and their information right away.
 
 ![Alt Image text](/img/main.png?raw=true "Optional Title")
 
+
+
 If you want to show only one city, you can hover over "Kaikki kaupungit" segment and choose what particular city to show, by clicking the city.
 
 ![Alt Image text](/img/citymenu.png?raw=true "Optional Title")
