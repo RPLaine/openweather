@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 /* 
 !!! --- APIKEY --- !!!
 */
-const apiKey = "INSERT YOUR APIKEY"; /* !!! --- INSERT APIKEY HERE! --- !!! */
+const apiKey = "ENTER YOUR APIKEY"; /* !!! --- INSERT APIKEY HERE! --- !!! */
 
 /* 
 GPS locations for the cities 
