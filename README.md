@@ -131,7 +131,7 @@ If you want to show only one city, you can hover over "Kaikki kaupungit" segment
 
 - [X] City visibility selection
 - [X] Fix correct precipitation volume
-- [ ] Fix date postfix
+- [X] Fix date postfix
 - [ ] Fix nighttime icons
 - [ ] Weather data does not update once it's loaded
 
