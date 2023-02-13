@@ -50,15 +50,11 @@
 This application lets you input coordinates for four locations of your choice. You will get current and future weather data easily.
 You can also choose if one particular locations is shown only, or all of the locations.
 
-Pros:
+Features:
 * The application waits accordingly before showing the weather data.
 * Future weather data is shown in 3-hour segments, so you see 15 hours into the future.
 * Both rain and snow precipitations are shown.
 * Icons give fast picture of the weather situation.
-
-There are minor underdevelopment in the project:
-* Day number postfixes are inaccurate after 20. day.
-* Daytime icons are shown at nighttime.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
