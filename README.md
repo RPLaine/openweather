@@ -112,13 +112,13 @@ Note: There might be vulnerabilities present after installation. I've had no pro
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+The application loads showings all the cities and their information right away.
+
 ![Alt Image text](/img/main.png?raw=true "Optional Title")
 
+If you want to show only one city, you can hover over "Kaikki kaupungit" segment and choose what particular city to show, by clicking the city.
+
 ![Alt Image text](/img/citymenu.png?raw=true "Optional Title")
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
