@@ -47,8 +47,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This application let's you input coordinates for four locations of your choice. You will get current and future weather data easily.
-You can also choose if one particular locations is show only, or all of the locations.
+This application lets you input coordinates for four locations of your choice. You will get current and future weather data easily.
+You can also choose if one particular locations is shown only, or all of the locations.
 
 Pros:
 * The application waits accordingly before showing the weather data.
