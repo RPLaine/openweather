@@ -112,9 +112,9 @@ Note: There might be vulnerabilities present after installation. I've had no pro
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<img src=https://github.com/RPLaine/openweather/img/main.png) alt="Main">
+<img src=https://github.com/RPLaine/openweather/blob/main/img/main.png?raw=true) alt="Main">
 
-<img src=https://github.com/RPLaine/openweather/img/main.png) alt="CityMEnu">
+<img src=https://github.com/RPLaine/openweather/blob/main/img/citymenu.png?raw=true) alt="CityMEnu">
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
