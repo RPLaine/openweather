@@ -204,7 +204,7 @@ function App() {
             </div>
             <div className="cityInfo">
               <div className="date">{months[d.getMonth()]} {d.getDate()}{postfix(d.getDay())}</div>
-              <div className="time">{d.getHours()}:{d.getMinutes()}</div>
+              <div className="time">{d.getHours()}:{("0" + d.getMinutes()).slice(-2)}</div>
             </div>
             <div className="cityInfoRight">
               <div className="extraWeatherInfo">
