@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
 
 /* 
-!!! --- APIKEY --- !!!
+APIKEY 
 */
-const apiKey = "ENTER YOUR APIKEY"; /* !!! --- INSERT APIKEY HERE! --- !!! */
+const apiKey = "3bed74812efc1800c5eed9a7cd9ffc95"; /* INSERT APIKEY HERE! */
 
 /* 
 GPS locations for the cities 
@@ -148,7 +148,7 @@ function App() {
         <div className="increment">
           <div className="incrementTime">{d.getHours() + addition > 23 ? d.getHours() + addition - 24 : d.getHours() + addition}:00</div>
           <div><img src={"http://openweathermap.org/img/wn/" + data.weather[0].icon.substring(0,2) + "d.png"} alt="icon" /></div>
-          <div className="incrementTemp">{Math.round(-273.15 + EspooData.list[0].main.temp)}<span>&#8451;</span></div>
+          <div className="incrementTemp">{Math.round(-273.15 + data.main.temp)}<span>&#8451;</span></div>
         </div>
         <div className="incrementExtra">
           <div>{data.wind.speed} m/s</div>
@@ -196,7 +196,7 @@ function App() {
         <div className="city">
           <div className="cityNow">
             <div className="cityInfo">
-              <div className="cityName">{data.city.name == "Jyvaskyla" ? "Jyväskylä" : data.city.name}</div>
+              <div className="cityName">{data.city.name === "Jyvaskyla" ? "Jyväskylä" : data.city.name}</div>
               <div className="weatherDescription">{data.list[0].weather[0].description}</div>
             </div>
             <div className="cityInfoRight">
