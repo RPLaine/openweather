@@ -1,3 +1,12 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 body {
   margin: 0;
   font-family: 'Arial Regular';
@@ -30,7 +39,6 @@ body {
 .cityMenu {
   position: relative;
   display: inline-block;
-  
 }
 
 .dropdownButton {
@@ -45,10 +53,24 @@ body {
   border-color: #E6E6E6;
   border-radius: 5pt;
   cursor: pointer;
-  width: 320pt;
+  width: 294pt;
+}
+
+.dropdownButtonHeader {
+  cursor:pointer;
+  width: fit-content;
+  font-size: 13pt;
+  color: #262626;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border: none;
+  background-color: white;
+  font-size: 13pt;
 }
 
 .dropdownContent {
+  width:fit-content;
   display: none;
   position: absolute;
   background-color: #FFFFFF;
@@ -56,9 +78,12 @@ body {
   width: 320pt;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  padding-left: 5pt;
 }
 
 .dropdownContent button {
+  cursor:pointer;
+  width: fit-content;
   color: black;
   padding: 13pt 13pt;
   text-decoration: none;
@@ -76,7 +101,7 @@ body {
 }
 
 .cityMenu:hover .dropdownButton {
-  background-color: #E6E6E6;
+  background-color: white;
 }
 
 .cityNow {
@@ -160,6 +185,10 @@ body {
 }
 
 .temperature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
   font-size: 26pt;
   color: #262626;
   margin-top: 20pt;
