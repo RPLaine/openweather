@@ -151,7 +151,7 @@ function App() {
           <div className="incrementTemp">{Math.round(-273.15 + data.main.temp)}<span>&#8451;</span></div>
         </div>
         <div className="incrementExtra">
-          <div>{data.wind.speed} m/s</div>
+          <div>{(data.wind.speed).toFixed(1)} m/s</div>
           <div>{data.main.humidity} %</div>
           <div>{PrecipitionValue(data)} mm</div>
         </div>
@@ -208,7 +208,7 @@ function App() {
             </div>
             <div className="cityInfoRight">
               <div className="extraWeatherInfo">
-                Wind: {data.list[0].wind.speed} m/s<br></br>
+                Wind: {(data.list[0].wind.speed).toFixed(1)} m/s<br></br>
                 Humidity: {data.list[0].main.humidity} %<br></br>
                 Precipitation (3h): {PrecipitionValue(data.list[0])} mm
               </div>
