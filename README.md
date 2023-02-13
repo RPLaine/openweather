@@ -133,6 +133,7 @@ If you want to show only one city, you can hover over "Kaikki kaupungit" segment
 - [X] Fix correct precipitation volume
 - [ ] Fix date postfix
 - [ ] Fix nighttime icons
+- [ ] Weather data does not update
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
