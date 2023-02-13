@@ -128,7 +128,8 @@ If you want to show only one city, you can hover over "Kaikki kaupungit" segment
 - [X] City visibility selection
 - [X] Fix correct precipitation volume
 - [X] Fix date postfix
-- [ ] Fix nighttime icons
+- [X] Fix nighttime icons
+  - [ ] Change iconsets according to sunset and sunrise
 - [ ] Weather data does not update once it's loaded
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
