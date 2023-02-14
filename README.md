@@ -48,12 +48,12 @@
 ## About The Project
 
 This application lets you input coordinates for four locations of your choice. You will get current and future weather data easily.
-You can also choose if one particular locations is shown only, or all of the locations.
+You can also choose if one particular location is shown only, or all of the locations.
 
 Features:
 * The application waits accordingly before showing the weather data.
 * Future weather data is shown in 3-hour segments, so you see 15 hours into the future.
-* Both rain and snow precipitations are shown.
+* Both rain and snow precipitations are shown in a same value.
 * Icons give fast picture of the weather situation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,8 +80,7 @@ Features:
 
 ### Installation
 
-Once you are in the project folder, type in these command in order (wait after each step is finished):
-Note: There might be vulnerabilities present after installation. I've had no problem starting the application nevertheless.
+Note: There might be vulnerabilities present after installation, but I've had no problem starting the application nevertheless.
 
 1. Get a free API Key at [https://openweathermap.org/](https://openweathermap.org/)
 2. Clone the repo
