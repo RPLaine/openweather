@@ -129,8 +129,14 @@ If you want to show only one city, you can hover over "Kaikki kaupungit" segment
 - [X] Fix correct precipitation volume
 - [X] Fix date postfix
 - [X] Fix nighttime icons
-  - [ ] Change iconsets according to sunset and sunrise
+  - [X] Change iconsets according to sunset and sunrise
 - [ ] Weather data does not update once it's loaded
+
+### Research possibilities
+
+* Study if useEffect can be triggered again after a certain time.
+  * If possible, flip setLoading and trigger useEffect simultaneously to fetch data again in some interval.
+* Alternatively, refresh the page once every ten minutes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
