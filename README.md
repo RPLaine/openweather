@@ -108,7 +108,7 @@ Note: There might be vulnerabilities present after installation. I've had no pro
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The application loads showings all the cities and their information right away.
+The application loads showing all the cities and their information right away.
 
 ![Alt Image text](/img/main.png?raw=true "Optional Title")
 
@@ -117,6 +117,13 @@ The application loads showings all the cities and their information right away.
 If you want to show only one city, you can hover over "Kaikki kaupungit" segment and choose what particular city to show, by clicking the city.
 
 ![Alt Image text](/img/citymenu.png?raw=true "Optional Title")
+
+
+
+You may enter your API key by replacing the "ENTER YOUR APIKEY" string in the App.js file.
+Also, modifying locations array, you may change which area or city the application returns information of.
+
+![Alt Image text](/img/code.png?raw=true "Optional Title")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
