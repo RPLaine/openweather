@@ -8,7 +8,7 @@
     <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="Logo">
   </a>
 
-  <h3 align="center">OpenWeatherMap Application</h3>
+  <h3 align="center">Säätutka - OpenWeatherMap Application</h3>
 
   <p align="center">
     An application that shows weather of four Finnish cities: Espoo, Jyväskylä, Kuopio and Tampere.
