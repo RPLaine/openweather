@@ -94,11 +94,7 @@ function App() {
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   /* 
-  Postfix for numbering. 1st, 2nd, 3rd, 4th... 
-  Only understands low numbers.
-  
-  !!! --- FIX FOR NUMBERS UP TO 31 --- !!!
-  
+  Postfix for numbering. 1st, 2nd, 3rd, 4th...
   */
   const postfix = (n) => {
     if(n === 1 || n === 21 || n === 31){
@@ -118,7 +114,7 @@ function App() {
   /* 
   Rain or snow volume. Server holds information only if there is precipitation.
   Check if the key exists. If true, get the data.
-  Note: data cannot be accessed by snow['3']. Code does not understand a string starting with number. 
+  Note: data cannot be accessed by snow['3h']. Code does not understand a string starting with number. 
   */
   var PrecipitionValue = (data) => {
     var value = 0;
@@ -217,7 +213,7 @@ function App() {
               <div className="temperature"><img src={"http://openweathermap.org/img/wn/" + data.list[0].weather[0].icon.substring(0,2) + DayOrNight() + "@2x.png"} alt="icon" /> <div>{Math.round(-273.15 + EspooData.list[0].main.temp)}<span>&#8451;</span></div></div>
             </div>
             <div className="cityInfo">
-              <div className="date">{months[d.getMonth()]} {d.getDate()}{postfix(d.getDay())}</div>
+              <div className="date">{months[d.getMonth()]} {d.getDate()}{postfix(d.getDate())}</div>
               <div className="time">{d.getHours()}:{("0" + d.getMinutes()).slice(-2)}</div>
             </div>
             <div className="cityInfoRight">
