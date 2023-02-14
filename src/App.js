@@ -20,7 +20,7 @@ const locations = [
 ]
 
 /* 
-API Url to get data from openweathermap.org. Number get a locations from locations array. 
+API Url to get data from openweathermap.org. Number get a location from locations array. 
 */
 const apiUrl = (number) => {
   return `https://api.openweathermap.org/data/2.5/forecast?${locations[number]}&appid=${apiKey}`;
